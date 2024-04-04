@@ -46,7 +46,7 @@ document.body.addEventListener('click', e => {
 })
 
 function gamerOver(chute) {
-    if (chute = 'gamer over') {
+    if (chute === "game over") {
         document.body.innerHTML =`
             <h2> Você Desistiu!!</h2>
             <h3>O número secreto era ${numeroSecreto} <br> Caso queira jogar novamente aperte abaixo!!</h3>
